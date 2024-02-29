@@ -59,7 +59,7 @@ namespace SuperWheelsCompanyAssessment
             Console.WriteLine("Number of Vehicles sold to corporate customers: " + soldToCorp);
             Console.WriteLine();
 
-            vehichlesSold = august.getSoldFrom(15, 30) + sept.getSoldFrom(1,15) - 1;
+            vehichlesSold = august.getSoldFrom(15, 31) + sept.getSoldFrom(1,15) - 1;
             Console.WriteLine("Number of Vehicles sold from Aug 15th to Sep 15th: " + vehichlesSold);
         }
 
